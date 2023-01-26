@@ -1,0 +1,29 @@
+@tailwind base;
+
+/* Your own custom base styles */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Your own custom component styles */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+.text-right .ant-input-number-input {
+  text-align: right;
+}
+
+.anticon > * {
+  vertical-align: baseline;
+}
+
+.custom-collapse .ant-collapse-header,
+.custom-collapse .ant-collapse-content-box {
+  padding: 0px !important;
+  margin: 0px !important;
+}
